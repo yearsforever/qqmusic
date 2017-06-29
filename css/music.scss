@@ -1,0 +1,43 @@
+@import "../lib/px2rem.scss";
+@import "./reset.css";
+
+body{
+	background-color: rgb(224, 96, 160);
+}
+
+.box{
+	li{
+		a{
+			display: flex;
+			height: px2rem(60);
+			.num{
+				display:flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: px2rem(30);
+				margin-right: px2rem(10);
+				height: px2rem(60);
+				font-size: px2rem(18);
+			}
+			.body{
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				height: px2rem(60);
+				padding-right: px2rem(15);
+				border-bottom: px2rem(1) solid rgba(#fff, 0.5);
+				h2{
+					font-size: px2rem(18);
+					margin-bottom: px2rem(8);
+				}
+				p{
+					font-size: px2rem(14);
+					height: px2rem(14);
+					overflow: hidden;
+				}
+			}
+		}
+	}
+}

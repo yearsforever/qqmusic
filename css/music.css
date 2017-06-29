@@ -1,0 +1,57 @@
+@import url(./reset.css);
+body {
+  background-color: #e060a0;
+}
+
+.box li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.56rem;
+}
+.box li a .num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1.28rem;
+  margin-right: 0.42667rem;
+  height: 2.56rem;
+  font-size: 0.768rem;
+}
+.box li a .body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 2.56rem;
+  padding-right: 0.64rem;
+  border-bottom: 0.04267rem solid rgba(255, 255, 255, 0.5);
+}
+.box li a .body h2 {
+  font-size: 0.768rem;
+  margin-bottom: 0.34133rem;
+}
+.box li a .body p {
+  font-size: 0.59733rem;
+  height: 0.59733rem;
+  overflow: hidden;
+}

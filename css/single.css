@@ -1,0 +1,71 @@
+@import url(./reset.css);
+.box {
+  height: 100% vh;
+  background-color: rgba(0, 156, 255, 0.1);
+}
+.box .head {
+  height: 4.69333rem;
+}
+.box .head .song_info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.64rem 3.41333rem 0.64rem 0.64rem;
+}
+.box .head .song_info img {
+  width: 3.41333rem;
+  height: 3.41333rem;
+  margin-right: 0.64rem;
+  border: 0.04267rem solid grey;
+}
+.box .head .song_info div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.box .head .song_info div h2 {
+  height: 1.28rem;
+  line-height: 1.28rem;
+  overflow: hidden;
+  font-size: 0.768rem;
+  color: #fff;
+  margin-bottom: 0.42667rem;
+}
+.box .head .song_info div p {
+  height: 0.896rem;
+  line-height: 0.896rem;
+  overflow: hidden;
+  font-size: 0.59733rem;
+  color: #fff;
+}
+.box .head .song_info a {
+  position: absolute;
+  top: 50%;
+  right: 1.06667rem;
+  width: 1.83467rem;
+  height: 1.83467rem;
+  margin-top: -0.93867rem;
+  border: 0.04267rem solid #fff;
+  border-radius: 42.624rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: .6;
+}
+.box .body p {
+  height: 1.792rem;
+  line-height: 1.792rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.68267rem;
+}

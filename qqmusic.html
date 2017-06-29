@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>music</title>
+	<link rel="stylesheet" href="css/music.css">
+	<script src="lib/hotcss.js"></script>
+</head>
+<body>
+	
+	<ul class="box">
+		
+	</ul>
+	
+
+	<script src="js/jquery.min.js"></script>
+	<script src="lib/template-web.js"></script>
+	<script type='text/html' id="tpl">
+		
+		<% for ( var i = 0; i < data.length; i++ ) {%>
+			<li>
+				<a href="single.html?songid=<%= data[i].songid%>&songname=<%= data[i].songname%>&singername=<%= data[i].singername %>">
+					<div class="num">
+						<span><%= i + 1%></span>
+						<span data-songid=<%= data[i].songid%>>&nbsp;</span>
+					</div>
+					<div class="body">
+						<h2><%= data[i].songname %></h2>
+						<p><%= data[i].singername %></p>
+					</div>
+				</a>		
+			</li>
+		<%}%>
+
+	</script>
+	<script src="js/js.js"></script>
+</body>
+</html>
